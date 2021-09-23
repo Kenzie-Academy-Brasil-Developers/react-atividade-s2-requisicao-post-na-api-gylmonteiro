@@ -1,0 +1,31 @@
+.containerForm {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fea443;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 15px;
+  width: 200px;
+  border: none;
+  margin: 5px 0 5px 0;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  width: 100px;
+  border: none;
+  background-color: #705e78;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #ddd;
+  margin-top: 15px;
+}

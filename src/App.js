@@ -1,13 +1,15 @@
+import { useState } from "react";
 import "./App.css";
 import Display from "./components/display";
 import Login from "./components/login";
 
 function App() {
+  const [display, setDisplay] = useState("");
   return (
     <div className="App">
       <header className="App-header">
-        <Login></Login>
-        <Display></Display>
+        <Login setDisplay={setDisplay}></Login>
+        <Display display={display}></Display>
       </header>
     </div>
   );

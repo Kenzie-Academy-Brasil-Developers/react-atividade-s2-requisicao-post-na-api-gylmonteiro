@@ -1,7 +1,11 @@
-const Display = () => {
+const Display = ({ display }) => {
   return (
     <>
-      <h1>Não esta logado</h1>
+      {display === 200 ? (
+        <h1>Você esta logado</h1>
+      ) : (
+        <h1>Você não está logado</h1>
+      )}
     </>
   );
 };
